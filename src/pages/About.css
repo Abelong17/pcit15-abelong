@@ -1,0 +1,33 @@
+#about-info {
+    min-height: 30vh;
+}
+
+#about img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px magenta;
+}
+
+#about img:hover {
+  width: 350px;
+  transition: all .5s ease;
+}
+
+#about span:hover {
+  color: mediumseagreen;
+  filter: drop-shadow(0 0 0.75rem rgb(31, 2, 102));
+  text-shadow: 0 0 20px rgb(38, 1, 85), 0 0 40px rgb(35, 2, 89);
+  transition: all 0.4s ease;
+}
+
+#about span {
+  font-size: 18px;
+  text-decoration: none;
+  color: purple;
+}
+
+#about {
+  background:  #141314;
+  padding-top: 50px;
+padding-bottom: 50px;
+}
